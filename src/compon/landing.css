@@ -1,3 +1,4 @@
+
 #tagline{
     position: absolute;
 width: 697px;
@@ -33,4 +34,21 @@ line-height: 42px;
 letter-spacing: 0.01em;
 color: #DBCDB6;
 
+}
+#backgroundimg
+{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1925px;
+height: 1283px;
+left: 0px;
+top: -40px;
+clip-path: rect(10px,10px,10px,10px);
+opacity: 0.1;
+}
+
+body
+{
+    background-color: rgba(50, 74, 83, 1); 
 }
