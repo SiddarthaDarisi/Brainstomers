@@ -1,4 +1,11 @@
-
+.landing{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%s;
+    background-clip: padding-box;
+    background-image: url("background.jpg");
+    
+}
 #tagline{
     position: absolute;
 width: 697px;
@@ -44,11 +51,18 @@ width: 1925px;
 height: 1283px;
 left: 0px;
 top: -40px;
-clip-path: rect(10px,10px,10px,10px);
 opacity: 0.1;
+
+pointer-events: none;
 }
 
+.clip-me{
+     /* Deprecated version */
+  position: absolute; /* absolute or fixed positioning required */
+clip-path: inset(100px,100px); /* or "auto" */
+  /* values descript a top/left point and bottom/right point */
+}
 body
-{
+{   
     background-color: rgba(50, 74, 83, 1); 
 }

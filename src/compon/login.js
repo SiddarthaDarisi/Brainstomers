@@ -1,9 +1,11 @@
 //write a login page
 import React, { useState } from 'react';
-
+import "./login.css";
 function login(){ 
-    return(<>
-    <h2>login</h2></>
+    return(
+    <div id="login">
+    <h2>login</h2>
+    </div>
 );
 
 }
