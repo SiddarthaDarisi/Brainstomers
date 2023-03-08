@@ -1,0 +1,36 @@
+#tagline{
+    position: absolute;
+width: 697px;
+height: 170px;
+left: 6%;
+top: 28%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 66px;
+line-height: 77px;
+
+color: #DBCDB6;
+}
+#getstarted{
+    box-sizing: border-box;
+position: absolute;
+width: 393px;
+height: 66px;
+left: 6%;
+top: 65%;
+background: #4B94B0;
+opacity: 0.45;
+border: 1px solid #707070;
+border-radius: 46px;
+text-align: center;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.01em;
+color: #DBCDB6;
+
+}
