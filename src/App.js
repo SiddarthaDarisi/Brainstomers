@@ -1,8 +1,7 @@
-import Landing from './compon/Landing.js';
+import Landing from './compon/landing.js';
 import Login from './compon/login.js';
 import Pricing from './compon/pricing.js';
 import Curriculum from './compon/curriculum.js';
-
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import React from 'react';

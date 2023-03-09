@@ -10,7 +10,7 @@ function Landing() {
     const routeChange = () => {
         let path = `/login`;
         navigate(path);
-
+        console.log("hello")
     }
     return (
 
