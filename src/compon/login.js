@@ -1,12 +1,16 @@
 //write a login page
+import "./login.css"
 import React, { useState } from 'react';
 import "./login.css";
-function login(){ 
-    return(
-    <div id="login">
-    <h2>login</h2>
-    </div>
-);
+function login(props) {
+
+
+    console.log(props.navi)
+    return (
+        <div className="login">
+
+        </div>
+    );
 
 }
 export default login;
