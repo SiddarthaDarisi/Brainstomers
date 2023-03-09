@@ -1,4 +1,4 @@
-import Landing from './compon/landing.js';
+import Landing from './compon/Landing.js';
 import Login from './compon/login.js';
 import Pricing from './compon/pricing.js';
 import Curriculum from './compon/curriculum.js';
