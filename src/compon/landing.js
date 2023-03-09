@@ -2,7 +2,7 @@
 import React from 'react';
 import "./landing.css";
 import Backgroundimg from './background.png';
-
+import Navbar from './Navbar';
 import { useNavigate } from "react-router-dom";
 
 function Landing() {
@@ -15,13 +15,14 @@ function Landing() {
     return (
 
         <div className="landing">
+            {<Navbar />}
             <div className='topp' >
                 <div id="image1">
                     <img src={Backgroundimg} alt="background" id='backgroundimg' />
                 </div>
 
                 <p id="tagline" >Learn faster through <br />structured training</p>
-                <button id="getstarted" onClick={routeChange}onHove>Get started</button>
+                <button id="getstarted" onClick={routeChange} onHove>Get started</button>
             </div>
             <div id="rest">
                 <div id="master-box">
