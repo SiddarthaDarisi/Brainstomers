@@ -1,5 +1,6 @@
 import Landing from './compon/landing.js';
 import Login from './compon/login.js';
+import Dashboard from './compon/Dashboard.js';
 import Pricing from './compon/pricing.js';
 import Curriculum from './compon/curriculum.js';
 import './App.css';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/login" element={<Login navi />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/curriculum" element={<Curriculum />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
       </Routes>
 
     </div>

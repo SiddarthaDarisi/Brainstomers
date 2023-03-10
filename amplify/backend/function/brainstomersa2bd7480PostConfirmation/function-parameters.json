@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "brainstomersa2bd7480",
+  "functionName": "brainstomersa2bd7480PostConfirmation",
+  "resourceName": "brainstomersa2bd7480PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "brainstomersa2bd7480PostConfirmation",
+  "skipEdit": true,
+  "GROUP": "Students",
+  "enableCors": false
+}

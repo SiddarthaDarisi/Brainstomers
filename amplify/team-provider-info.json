@@ -9,7 +9,32 @@
       "UnauthRoleName": "amplify-amplify71304f0c65704-staging-201829-unauthRole",
       "StackName": "amplify-amplify71304f0c65704-staging-201829",
       "StackId": "arn:aws:cloudformation:us-east-1:506583605432:stack/amplify-amplify71304f0c65704-staging-201829/e4ca0ea0-bb92-11ed-88b0-0e12f6b6a4b3",
-      "AmplifyAppId": "d2xfsjrolcqs73"
+      "AmplifyAppId": "d2xfsjrolcqs73",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplify71304f0c65704-staging-201829-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "Brainstomers": {},
+        "brainstomersa2bd7480": {},
+        "brainstomers681efc97": {}
+      },
+      "function": {
+        "brainstomersa2bd7480CustomMessage": {
+          "REDIRECTURL": "http://localhost:3000/Dashboard/",
+          "EMAILSUBJECT": "Verification code",
+          "EMAILMESSAGE": "",
+          "deploymentBucketName": "amplify-amplify71304f0c65704-staging-201829-deployment",
+          "s3Key": "amplify-builds/brainstomersa2bd7480CustomMessage-6552715275786f494c47-build.zip"
+        },
+        "brainstomersa2bd7480PostConfirmation": {
+          "GROUP": "Students",
+          "deploymentBucketName": "amplify-amplify71304f0c65704-staging-201829-deployment",
+          "s3Key": "amplify-builds/brainstomersa2bd7480PostConfirmation-6270372b375952356f31-build.zip"
+        }
+      },
+      "api": {
+        "Brainstomers": {}
+      }
     }
   }
 }

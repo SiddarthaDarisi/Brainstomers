@@ -1,16 +1,16 @@
-//write a login page
-import "./login.css"
-import React, { useState } from 'react';
-import "./login.css";
-function login(props) {
+import React, { useEffect } from 'react';
+import Dashboard from './Dashboard';
+import { withAuthenticator } from "@aws-amplify/ui-react";
+import { Navigate } from 'react-router-dom';
 
+const login = () => {
 
-    console.log(props.navi)
     return (
-        <div className="login">
+        <>
 
-        </div>
+            <Dashboard />
+        </>
     );
 
 }
-export default login;
+export default withAuthenticator(login);
