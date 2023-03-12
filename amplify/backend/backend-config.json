@@ -41,12 +41,9 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "NAME",
-          "EMAIL"
+          "NAME"
         ],
-        "socialProviders": [
-          "GOOGLE"
-        ],
+        "socialProviders": [],
         "usernameAttributes": [
           "EMAIL"
         ],
@@ -56,84 +53,6 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
-    }
-  },
-  "function": {
-    "brainstomersa2bd7480CustomMessage": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    },
-    "brainstomersa2bd7480PostConfirmation": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    }
-  },
-  "parameters": {
-    "AMPLIFY_function_brainstomersa2bd7480CustomMessage_EMAILMESSAGE": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "brainstomersa2bd7480CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_brainstomersa2bd7480CustomMessage_EMAILSUBJECT": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "brainstomersa2bd7480CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_brainstomersa2bd7480CustomMessage_REDIRECTURL": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "brainstomersa2bd7480CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_brainstomersa2bd7480CustomMessage_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "brainstomersa2bd7480CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_brainstomersa2bd7480CustomMessage_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "brainstomersa2bd7480CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_brainstomersa2bd7480PostConfirmation_GROUP": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "brainstomersa2bd7480PostConfirmation"
-        }
-      ]
-    },
-    "AMPLIFY_function_brainstomersa2bd7480PostConfirmation_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "brainstomersa2bd7480PostConfirmation"
-        }
-      ]
-    },
-    "AMPLIFY_function_brainstomersa2bd7480PostConfirmation_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "brainstomersa2bd7480PostConfirmation"
-        }
-      ]
     }
   }
 }

@@ -1,4 +1,22 @@
 {
+  "production": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-brainstomers-production-201643-authRole",
+      "UnauthRoleArn": "arn:aws:iam::506583605432:role/amplify-brainstomers-production-201643-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::506583605432:role/amplify-brainstomers-production-201643-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-brainstomers-production-201643-deployment",
+      "UnauthRoleName": "amplify-brainstomers-production-201643-unauthRole",
+      "StackName": "amplify-brainstomers-production-201643",
+      "StackId": "arn:aws:cloudformation:us-east-1:506583605432:stack/amplify-brainstomers-production-201643/fab631b0-bd24-11ed-974e-0ebde51416e9",
+      "AmplifyAppId": "d2xfsjrolcqs73"
+    },
+    "categories": {
+      "auth": {
+        "Brainstomers": {}
+      }
+    }
+  },
   "staging": {
     "awscloudformation": {
       "AuthRoleName": "amplify-amplify71304f0c65704-staging-201829-authRole",
