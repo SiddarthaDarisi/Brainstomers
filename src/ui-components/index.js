@@ -5,9 +5,3 @@
  **************************************************************************/
 
 export { default as studioTheme } from "./studioTheme";
-export { default as UserdetailsCreateForm } from "./UserdetailsCreateForm";
-export { default as UserdetailsUpdateForm } from "./UserdetailsUpdateForm";
-export { default as SigninCreateForm } from "./SigninCreateForm";
-export { default as SigninUpdateForm } from "./SigninUpdateForm";
-export { default as SignupCreateForm } from "./SignupCreateForm";
-export { default as SignupUpdateForm } from "./SignupUpdateForm";

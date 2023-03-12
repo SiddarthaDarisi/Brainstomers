@@ -1,56 +1,18 @@
 {
-  "production": {
+  "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-brainstomers-production-201643-authRole",
-      "UnauthRoleArn": "arn:aws:iam::506583605432:role/amplify-brainstomers-production-201643-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::506583605432:role/amplify-brainstomers-production-201643-authRole",
+      "AuthRoleName": "amplify-amplify1c663a497dfc4-staging-210512-authRole",
+      "UnauthRoleArn": "arn:aws:iam::506583605432:role/amplify-amplify1c663a497dfc4-staging-210512-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::506583605432:role/amplify-amplify1c663a497dfc4-staging-210512-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-brainstomers-production-201643-deployment",
-      "UnauthRoleName": "amplify-brainstomers-production-201643-unauthRole",
-      "StackName": "amplify-brainstomers-production-201643",
-      "StackId": "arn:aws:cloudformation:us-east-1:506583605432:stack/amplify-brainstomers-production-201643/fab631b0-bd24-11ed-974e-0ebde51416e9",
+      "DeploymentBucketName": "amplify-amplify1c663a497dfc4-staging-210512-deployment",
+      "UnauthRoleName": "amplify-amplify1c663a497dfc4-staging-210512-unauthRole",
+      "StackName": "amplify-amplify1c663a497dfc4-staging-210512",
+      "StackId": "arn:aws:cloudformation:us-east-1:506583605432:stack/amplify-amplify1c663a497dfc4-staging-210512/9490bc90-c119-11ed-9adb-0ec1706a7c9b",
       "AmplifyAppId": "d2xfsjrolcqs73"
     },
     "categories": {
       "auth": {
-        "Brainstomers": {}
-      }
-    }
-  },
-  "staging": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-amplify71304f0c65704-staging-201829-authRole",
-      "UnauthRoleArn": "arn:aws:iam::506583605432:role/amplify-amplify71304f0c65704-staging-201829-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::506583605432:role/amplify-amplify71304f0c65704-staging-201829-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-amplify71304f0c65704-staging-201829-deployment",
-      "UnauthRoleName": "amplify-amplify71304f0c65704-staging-201829-unauthRole",
-      "StackName": "amplify-amplify71304f0c65704-staging-201829",
-      "StackId": "arn:aws:cloudformation:us-east-1:506583605432:stack/amplify-amplify71304f0c65704-staging-201829/e4ca0ea0-bb92-11ed-88b0-0e12f6b6a4b3",
-      "AmplifyAppId": "d2xfsjrolcqs73",
-      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplify71304f0c65704-staging-201829-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
-    },
-    "categories": {
-      "auth": {
-        "Brainstomers": {},
-        "brainstomersa2bd7480": {},
-        "brainstomers681efc97": {}
-      },
-      "function": {
-        "brainstomersa2bd7480CustomMessage": {
-          "REDIRECTURL": "http://localhost:3000/Dashboard/",
-          "EMAILSUBJECT": "Verification code",
-          "EMAILMESSAGE": "",
-          "deploymentBucketName": "amplify-amplify71304f0c65704-staging-201829-deployment",
-          "s3Key": "amplify-builds/brainstomersa2bd7480CustomMessage-6552715275786f494c47-build.zip"
-        },
-        "brainstomersa2bd7480PostConfirmation": {
-          "GROUP": "Students",
-          "deploymentBucketName": "amplify-amplify71304f0c65704-staging-201829-deployment",
-          "s3Key": "amplify-builds/brainstomersa2bd7480PostConfirmation-6270372b375952356f31-build.zip"
-        }
-      },
-      "api": {
         "Brainstomers": {}
       }
     }
