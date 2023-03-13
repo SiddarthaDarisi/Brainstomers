@@ -1,16 +1,13 @@
-import React, { ReactNode, useState } from 'react';
-import Dashboard from './Dashboard';
-import { withAuthenticator } from "@aws-amplify/ui-react";
-import { Navigate } from 'react-router-dom';
+import { withAuthenticator } from '@aws-amplify/ui-react';
+import { Navigate } from "react-router-dom";
 
-const login = () => {
+function Login() {
 
   return (
     <>
-
-      <Dashboard />
-    </>
+      <Navigate to="/dashboard" />
+    </>// your login form code here
   );
 
 }
-export default withAuthenticator(login);
+export default withAuthenticator(Login);
