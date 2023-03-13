@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Auth } from 'aws-amplify';
+import Navbar2 from './Navbar2';
 import { withAuthenticator } from "@aws-amplify/ui-react";
 async function signOut() {
     try {
@@ -23,8 +24,9 @@ function Dashboard({ logout }) {
     console.log()
     return (
         <div>
+            <Navbar2 />
             <h1>hi</h1>
-            <button onClick={checkUser}>click here</button>
+
             <button onClick={signOut}>Signout</button>
         </div>
     );
