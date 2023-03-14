@@ -3,22 +3,25 @@ import { Auth, Hub } from "aws-amplify"
 import { Navigate } from 'react-router';
 import { Authenticator } from '@aws-amplify/ui-react';
 function Login() {
-
-  const [signedUser, setSignedUser] = useState(false);
+  const [signedUser, setSignedUser] = useState(null);
   useEffect(() => {
     authListener()
   }, [])
   async function authListener() {
     Hub.listen("auth", (data) => {
-      switch (data.payload.event) {
-        case 'signIn':
-          return setSignedUser(true);
+      if (data.payload.event === 'signIn')
+        setSignedUser(true);
+      else if (data.payload.event === 'signOut')
+        setSignedUser(false);
+      // switch (data.payload.event) {
+      //     case 'signIn':
+      //         return setSignedUser(true);
 
-        case 'signOut':
-          return setSignedUser(false);
+      //     case 'signOut':
+      //         return setSignedUser(false);
 
 
-      }
+
     })
 
     try {
@@ -27,11 +30,13 @@ function Login() {
     } catch (err) { }
   }
 
+
+
   return (
     <div style={{ padding: 100 }}>
 
       <Authenticator>
-        (<Navigate to="/Dashboard" />)
+        {signedUser && (<Navigate to="/Dashboard" />)}
       </Authenticator>
     </div>// your login form code here
   );

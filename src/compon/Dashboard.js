@@ -31,7 +31,7 @@ function Dashboard({ logout }) {
             <Navbar2 />
             <h1>hi</h1>
             <button onClick={signOut}>Signout</button>
-
+            <CheckSignin />
         </div>
     );
 

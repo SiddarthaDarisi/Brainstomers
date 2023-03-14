@@ -22,10 +22,10 @@ function Navbar2() {
                             <Link to="/dashboard/PricingPage" className="btn btn-primary" style={{ textDecoration: 'none' }} id="pricing-text" >Payments</Link>
                         </div>
                         <div id="curriculum">
-                            <Link to="dashboard/schedule" className="btn btn-primary" style={{ textDecoration: 'none' }} id="curriculum-text">Schedule</Link>
+                            <Link to="/dashboard/schedule" className="btn btn-primary" style={{ textDecoration: 'none' }} id="curriculum-text">Schedule</Link>
                         </div>
                         <div id="login">
-                            <Link to="dashboard/profile" className="btn btn-primary" style={{ textDecoration: 'none' }} id="login-text">Profile</Link>
+                            <Link to="/dashboard/profile" className="btn btn-primary" style={{ textDecoration: 'none' }} id="login-text">Profile</Link>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@ function Navbar2() {
                 </nav>
 
             </header>
-            <CheckSignin />
+
         </div>
     );
 
