@@ -2,6 +2,7 @@
 //import "./navbar2.css"
 import "./navbar.css"
 import React from 'react';
+import CheckSignin from './CheckSignin';
 import logo from './logo.png';
 import { Link } from "react-router-dom";
 function Navbar2() {
@@ -33,7 +34,7 @@ function Navbar2() {
                 </nav>
 
             </header>
-
+            <CheckSignin />
         </div>
     );
 

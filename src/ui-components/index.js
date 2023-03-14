@@ -5,3 +5,5 @@
  **************************************************************************/
 
 export { default as studioTheme } from "./studioTheme";
+export { default as ContentCreateForm } from "./ContentCreateForm";
+export { default as ContentUpdateForm } from "./ContentUpdateForm";

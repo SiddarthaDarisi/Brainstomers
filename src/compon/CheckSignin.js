@@ -4,7 +4,7 @@ import { Auth, Hub } from "aws-amplify"
 import { Navigate } from 'react-router';
 const CheckSignin = () => {
 
-    const [signedUser, setSignedUser] = useState(false);
+    const [signedUser, setSignedUser] = useState(true);
     useEffect(() => {
         authListener()
     }, [])

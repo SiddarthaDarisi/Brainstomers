@@ -4,10 +4,8 @@ import { schema } from './schema';
 
 
 
-const { Userdetails, Signin, Signup } = initSchema(schema);
+const { Content } = initSchema(schema);
 
 export {
-  Userdetails,
-  Signin,
-  Signup
+  Content
 };

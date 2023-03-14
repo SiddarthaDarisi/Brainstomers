@@ -1,0 +1,6 @@
+type Content @model @auth(rules: [{allow: public}, {allow: groups, groups: ["Teacher"], operations: [read, create, update, delete]}, {allow: groups, groups: ["student"], operations: [read]}]) {
+  id: ID!
+  Class_link: String
+  Homework: String
+}
+ 
