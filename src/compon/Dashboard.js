@@ -26,11 +26,11 @@ function Dashboard({ logout }) {
     return (
 
         <div>
-            <Authenticator>
-                <Navbar2 />
-                <h1>hi</h1>
-                <button onClick={signOut}>Signout</button>
-            </Authenticator>
+
+            <CheckSignin />
+            <Navbar2 />
+            <h1>hi</h1>
+            <button onClick={signOut}>Signout</button>
 
         </div>
     );
