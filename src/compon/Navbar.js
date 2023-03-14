@@ -17,7 +17,7 @@ function Navbar(props) {
                     <div id="rnav">
 
                         <div id="pricing">
-                            <Link to="/pricing" className="btn btn-primary" style={{ textDecoration: 'none' }} id="pricing-text" >Pricing</Link>
+                            <Link to="/PricingPage" className="btn btn-primary" style={{ textDecoration: 'none' }} id="pricing-text" >Pricing</Link>
                         </div>
                         <div id="curriculum">
                             <Link to="/curriculum" className="btn btn-primary" style={{ textDecoration: 'none' }} id="curriculum-text">Curriculum</Link>

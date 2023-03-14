@@ -1,12 +1,12 @@
 //write a login page
 import "./navbar2.css"
-import React, { useState } from 'react';
+import React from 'react';
 import logo from './logo.png';
 import { Link } from "react-router-dom";
-function Navbar2(props) {
+function Navbar2() {
 
     return (
-        <div className="navbar">
+        <div className="navbar2">
             <header className="App-header">
 
                 <nav className="navbar">
@@ -17,13 +17,13 @@ function Navbar2(props) {
                     <div id="rnav">
 
                         <div id="pricing">
-                            <Link to="/pricing" className="btn btn-primary" style={{ textDecoration: 'none' }} id="pricing-text" >Payments</Link>
+                            <Link to="/Dashboard/PricingPage" className="btn btn-primary" style={{ textDecoration: 'none' }} id="pricing-text" >Payments</Link>
                         </div>
                         <div id="curriculum">
-                            <Link to="/curriculum" className="btn btn-primary" style={{ textDecoration: 'none' }} id="curriculum-text">schedule</Link>
+                            <Link to="/Dashboard/PricingPage" className="btn btn-primary" style={{ textDecoration: 'none' }} id="curriculum-text">Schedule</Link>
                         </div>
                         <div id="login">
-                            <Link to="/login" className="btn btn-primary" style={{ textDecoration: 'none' }} id="login-text">profile pic</Link>
+                            <Link to="/" className="btn btn-primary" style={{ textDecoration: 'none' }} id="login-text">Profile</Link>
                         </div>
                     </div>
 

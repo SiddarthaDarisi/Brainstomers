@@ -4,6 +4,7 @@ import "./landing.css";
 import Backgroundimg from './background.png';
 import Navbar from './Navbar';
 import { useNavigate } from "react-router-dom";
+import CheckSignin from './CheckSignin';
 //asa
 function Landing() {
     let navigate = useNavigate();

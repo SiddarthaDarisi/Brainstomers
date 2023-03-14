@@ -10,7 +10,13 @@ import '@aws-amplify/ui-react/styles.css'
 import { BrowserRouter } from 'react-router-dom';
 
 Amplify.configure(config);
-
+<head>
+  
+  <script
+    async
+    src="https://js.stripe.com/v3/pricing-table.js">
+  </script>
+</head>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AmplifyProvider>
