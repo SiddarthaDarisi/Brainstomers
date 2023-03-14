@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Authenticator } from '@aws-amplify/ui-react';
 import { Auth } from 'aws-amplify';
 import Navbar2 from './Navbar2';
 import CheckSignin from './CheckSignin';
@@ -25,11 +26,12 @@ function Dashboard({ logout }) {
     return (
 
         <div>
+            <Authenticator>
+                <Navbar2 />
+                <h1>hi</h1>
+                <button onClick={signOut}>Signout</button>
+            </Authenticator>
 
-            <Navbar2 />
-            <h1>hi</h1>
-            <button onClick={signOut}>Signout</button>
-            <CheckSignin />
         </div>
     );
 
