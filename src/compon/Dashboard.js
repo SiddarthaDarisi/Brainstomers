@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { Authenticator } from '@aws-amplify/ui-react';
+import { withAuthenticator } from '@aws-amplify/ui-react';
 import { Auth } from 'aws-amplify';
 import Navbar2 from './Navbar2';
 import CheckSignin from './CheckSignin';
 async function signOut() {
     try {
-        await Auth.signOut();
+        await Auth.signOut({ global: true });
     } catch (error) {
         console.log('error signing out: ', error);
     }
@@ -27,7 +27,7 @@ function Dashboard({ logout }) {
 
         <div>
 
-          
+
             <Navbar2 />
             <h1>hi</h1>
             <button onClick={signOut}>Signout</button>
@@ -36,4 +36,4 @@ function Dashboard({ logout }) {
     );
 
 }
-export default Dashboard;
+export default (Dashboard);
