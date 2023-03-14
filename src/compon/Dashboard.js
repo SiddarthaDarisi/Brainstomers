@@ -11,10 +11,10 @@ async function signOut() {
     }
 }
 
+
 async function checkUser() {
     let user = await Auth.currentUserInfo();
-    alert(user)
-    console.log(user, "hi")
+
 
 }
 
