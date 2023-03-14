@@ -1,5 +1,6 @@
 import * as React from 'react';
 import logo from './logo.png';
+import "./PricingPage.css"
 import Navbar from './Navbar';
 function PricingPage() {
   // Paste the stripe-pricing-table snippet in your React component
@@ -8,15 +9,12 @@ function PricingPage() {
       <div style={{ paddingBottom: 20 }}>
         <Navbar />
       </div>
-      <div style={{ padding: 50 }}>
-
-        <stripe-pricing-table
-          pricing-table-id="prctbl_1MkLIpAfIGR0KUvj8Xvtb8aW"
-          publishable-key="pk_test_51Mjc6FAfIGR0KUvjHVH3urBMpUvPUjU4NBCXKDWgwFGc2vgaE1XlBp6AQTmpKHH2sJ5AlDFRF0CQdMrpHxLA5ndw00YGYwymWL"
-        >
-        </stripe-pricing-table>
+      <div id="master-box1">
+        <h1>sid</h1>
       </div>
-    </div>
+
+
+    </div >
 
   );
 }

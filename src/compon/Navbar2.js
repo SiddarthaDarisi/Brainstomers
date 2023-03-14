@@ -5,7 +5,22 @@ import React from 'react';
 import CheckSignin from './CheckSignin';
 import logo from './logo.png';
 import { Link } from "react-router-dom";
-function Navbar2() {
+import { Auth } from 'aws-amplify';
+async function signOut() {
+    try {
+        await Auth.signOut({ global: true });
+    } catch (error) {
+        console.log('error signing out: ', error);
+    }
+}
+
+
+async function checkUser() {
+    let user = await Auth.currentUserInfo();
+
+
+}
+function Navbar2({ signout }) {
 
     return (
         <div className="navbar">
@@ -25,7 +40,7 @@ function Navbar2() {
                             <Link to="/dashboard/schedule" className="btn btn-primary" style={{ textDecoration: 'none' }} id="curriculum-text">Schedule</Link>
                         </div>
                         <div id="login">
-                            <Link to="/dashboard/profile" className="btn btn-primary" style={{ textDecoration: 'none' }} id="login-text">Profile</Link>
+                            <button className="btn btn-primary"  onClick={signOut} id="login-text">logout</button>
                         </div>
                     </div>
 
