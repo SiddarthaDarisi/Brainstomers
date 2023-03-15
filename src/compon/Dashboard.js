@@ -4,6 +4,7 @@ import { withAuthenticator } from '@aws-amplify/ui-react';
 import { Auth } from 'aws-amplify';
 import Navbar2 from './Navbar2';
 import CheckSignin from './CheckSignin';
+
 async function signOut() {
     try {
         await Auth.signOut({ global: true });
