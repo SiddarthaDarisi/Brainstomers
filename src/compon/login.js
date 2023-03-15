@@ -3,33 +3,25 @@ import { Auth, Hub } from "aws-amplify"
 import { Navigate } from 'react-router';
 import { Authenticator } from '@aws-amplify/ui-react';
 function Login() {
-  const [signedUser, setSignedUser] = useState(null);
+  const [signedUser, setSignedUser] = useState(true);
   useEffect(() => {
-    authListener()
-  }, [])
-  async function authListener() {
-    Hub.listen("auth", (data) => {
-      if (data.payload.event === 'signIn')
+    async function authListener() {
+      Hub.listen("auth", (data) => {
+        if (data.payload.event === 'signIn')
+          setSignedUser(true);
+        else if (data.payload.event === 'signOut')
+          setSignedUser(false);
+      });
+      try {
+        await Auth.currentAuthenticatedUser();
         setSignedUser(true);
-      else if (data.payload.event === 'signOut')
-        setSignedUser(false);
-      // switch (data.payload.event) {
-      //     case 'signIn':
-      //         return setSignedUser(true);
-
-      //     case 'signOut':
-      //         return setSignedUser(false);
-
-
-
-    })
-
-    try {
-      await Auth.currentAuthenticatedUser()
-      setSignedUser(true)
-    } catch (err) { }
-  }
-
+      } catch (err) { }
+      return () => {
+        Hub.remove("auth");
+      };
+    }
+    authListener();
+  }, [signedUser]);
 
 
   return (

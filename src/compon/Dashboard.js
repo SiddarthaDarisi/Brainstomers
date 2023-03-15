@@ -28,7 +28,7 @@ function Dashboard({ logout }) {
 
         <div>
 
-
+            <CheckSignin />
             <Navbar2 />
             <h1>hi</h1>
             <button onClick={signOut}>Signout</button>
@@ -37,4 +37,4 @@ function Dashboard({ logout }) {
     );
 
 }
-export default withAuthenticator(Dashboard);
+export default (Dashboard);
