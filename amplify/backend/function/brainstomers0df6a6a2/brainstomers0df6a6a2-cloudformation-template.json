@@ -268,7 +268,7 @@
       }
     },
     "LambdaExecutionRoleArn": {
-y      "Value": {
+      "Value": {
         "Fn::GetAtt": [
           "LambdaExecutionRole",
           "Arn"
