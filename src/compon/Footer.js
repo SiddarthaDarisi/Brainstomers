@@ -4,6 +4,11 @@ function Footer() {
 
     return (
         <div className='footer'>
+            <div id='footer-text'>
+                <p>
+                    © All Rights Reserved.
+                </p>
+            </div>
 
         </div>
     )

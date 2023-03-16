@@ -20,10 +20,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/Login" element={<Login navi />} />
-        <Route path="/Dashboard/PricingPage" element={<Pricing />} />
+        {/* <Route path="/Login" element={<Login navi />} /> */}
+        {/* <Route path="/Dashboard/PricingPage" element={<Pricing />} /> */}
         <Route path="/Curriculum" element={<Curriculum />} />
-        <Route path="/Dashboard" element={<Dashboard />} />
+        {/* <Route path="/Dashboard" element={<Dashboard />} /> */}
         <Route path="/PricingPage" element={<Pricing2 />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
