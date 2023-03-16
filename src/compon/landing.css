@@ -11,7 +11,7 @@
 .topp {
     grid-area: "top";
     width: 100vw;
-    width: 98.7vw;
+    width: 98.9vw;
     background-color: rgba(33, 59, 69, 1);
     height: 100vh;
 }
@@ -36,7 +36,7 @@
 
 #image1 {
     height: 100vh;
-
+    
     overflow: hidden;
 }
 
