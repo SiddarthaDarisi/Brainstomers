@@ -31,10 +31,11 @@ function Landing() {
                 </div>
                 <div id="rest">
                     <div id="master-box">
-
-                        <h2>
-                            Meet our master
+                        <div id='head'>
+                            <h2>
+                                Meet our master
                         </h2>
+                        </div>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

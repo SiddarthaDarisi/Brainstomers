@@ -1,12 +1,12 @@
 import * as React from 'react';
 import logo from './logo.png';
-import Navbar2 from './Navbar2';
+import Navbar from './Navbar';
 function PricingPage2() {
   // Paste the stripe-pricing-table snippet in your React component
   return (
     <div>
       <div style={{ paddingBottom: 20 }}>
-        <Navbar2 />
+        <Navbar />
       </div>
       <div style={{ padding: 50 }}>
 
