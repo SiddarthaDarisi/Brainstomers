@@ -40,11 +40,11 @@ function Landing() {
                         </div>
                         <div id='master-image'>
                             <img src={profilepic} alt="background" id='profile-pic' />
-                            <h3 id='profile-name'>Ivana maria Furtado</h3>
+                            <h3 id='profile-name'>Ivana Maria Furtado</h3>
                         </div>
                         <div id='master-text'>
                             <p id='para'>
-                                Ivana maria Furtado a master in the game of chess.
+                                Ivana Maria Furtado a master in the game of chess.
                                 Ivana is a seasoned chess player with years of experience and a wealth of knowledge in the game.
                                 She has competed in numerous national and international tournaments, earning various titles and accolades along the way.
                                 As a chess tutor, she is committed to sharing her expertise with aspiring chess players and enthusiasts.
