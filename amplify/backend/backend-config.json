@@ -25,7 +25,8 @@
           ],
           "defaultAuthentication": {
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 30,
+              "apiKeyExpirationDate": "2023-03-22T21:28:40.095Z",
+              "apiKeyExpirationDays": 7,
               "description": "api key description"
             },
             "authenticationType": "API_KEY"
@@ -70,6 +71,49 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
+    }
+  },
+  "function": {
+    "brainstomers0df6a6a2": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput"
+          ],
+          "category": "api",
+          "resourceName": "Brainstomers"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_brainstomers0df6a6a2_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "brainstomers0df6a6a2"
+        }
+      ]
+    },
+    "AMPLIFY_function_brainstomers0df6a6a2_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "brainstomers0df6a6a2"
+        }
+      ]
+    },
+    "AMPLIFY_function_brainstomers0df6a6a2_sesEmail": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "brainstomers0df6a6a2"
+        }
+      ]
     }
   }
 }

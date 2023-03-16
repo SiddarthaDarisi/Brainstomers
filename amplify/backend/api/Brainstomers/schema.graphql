@@ -3,4 +3,13 @@ type Content @model @auth(rules: [{allow: public}, {allow: groups, groups: ["Tea
   Class_link: String
   Homework: String
 }
- 
+ type Candidate @model
+ @auth(rules:[{allow:public,operations:[create]}])
+ {
+  id:ID!
+  Name:String!
+  Email:AWSEmail!
+  Subject:String
+  Message:String
+
+ }

@@ -14,6 +14,16 @@
     "categories": {
       "auth": {
         "Brainstomers": {}
+      },
+      "function": {
+        "brainstomers0df6a6a2": {
+          "sesEmail": "siddarthadarisi@gmail.com",
+          "deploymentBucketName": "amplify-amplify1c663a497dfc4-staging-210512-deployment",
+          "s3Key": "amplify-builds/brainstomers0df6a6a2-5138324a6e4649577450-build.zip"
+        }
+      },
+      "api": {
+        "Brainstomers": {}
       }
     }
   }
