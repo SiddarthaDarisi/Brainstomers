@@ -4,6 +4,7 @@ import Dashboard from './compon/Dashboard.js';
 import Pricing from './compon/PricingPage.js';
 import Pricing2 from './compon/PricingPage2.js';
 import Curriculum from './compon/curriculum.js';
+import Contact from './compon/Contact.js';
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import React from 'react';
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Curriculum" element={<Curriculum />} />
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/Dashboard/PricingPage" element={<Pricing2 />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
 
     </div>
