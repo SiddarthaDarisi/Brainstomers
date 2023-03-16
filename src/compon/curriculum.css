@@ -1,12 +1,3 @@
-#line {
-    position: absolute;
-    width: 1937.5px;
-    height: 0px;
-
-    mix-blend-mode: normal;
-    border: 1px solid #000000;
-}
-
 #head-text {
     display: flex;
     align-content: center;
@@ -18,30 +9,41 @@
 
 #module-box {
     box-sizing: border-box;
-
-
-
+    display: block;
     width: 25%;
     height: 70%;
-    margin-top: 5.37%;
     margin-bottom: 5.37%;
     margin-left: 5.89%;
-
-
-
     background: #FFFFFF;
     border: 1px solid #DBCDB6;
     box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.160784);
-    border-radius: 67px;
-
+    border-radius: 5%;
 }
 
+
+
 #boxes {
+
     display: flex;
 
 }
 
-#modulehead-text {
-    font-size: 2rem;
 
+#head-text {
+    font-size: 25px;
+    align-items: center;
+}
+
+#duration {
+    margin-left: 5%;
+    font-size: 10px;
+    text-align: right;
+}
+
+#modulehead-text {
+    margin-left: 25%;
+}
+
+h3 {
+    margin-left: 5%;
 }

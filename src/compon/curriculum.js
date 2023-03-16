@@ -14,8 +14,8 @@ function curriculum() {
                 <div id='boxes'>
                     <div id="module-box">
                         <div id='head-text'>
-                            <h2>Beginner</h2>
-                            <h2>Duration:3 months</h2>
+                            <p id='modulehead-text'>Beginner</p>
+                            <p id="duration">Duration: 3 months</p>
 
                         </div>
 
@@ -46,13 +46,12 @@ function curriculum() {
 
                     <div id="module-box">
                         <div id='head-text'>
-                            <h2>Intermediate</h2>
-                            <h2>Duration:4 months</h2>
-
+                            <p id='modulehead-text'>Intermediate</p>
+                            <p id='duration'>Duration: 4 months</p>
                         </div>
 
                         <div >
-                            <h3>
+                            <h3 >
                                 Modules
                             </h3>
                             <p>
@@ -76,7 +75,7 @@ function curriculum() {
                     <div id="module-box">
                         <div id='head-text'>
                             <p id='modulehead-text'>Advanced</p>
-                            <p>Duration:8 months</p>
+                            <p id='duration'>Duration: 8 months</p>
 
                         </div>
 
