@@ -2,6 +2,7 @@ import {
     CandidateCreateForm
 } from '.././ui-components';
 import Navbar from './Navbar';
+import "./contact.css"
 import React from 'react'; import { API } from 'aws-amplify'; import { createCandidate } from '../graphql/mutations';
 function Contact() {
     //     const [name, setName] = React.useState('');
@@ -77,7 +78,10 @@ function Contact() {
         //     </div>
         <div>
             <Navbar />
-            <CandidateCreateForm />
+            <h1> Need Help?</h1>
+            <div id="sid">
+                <CandidateCreateForm />
+            </div>
         </div>
     );
 }

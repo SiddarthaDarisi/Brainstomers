@@ -1,0 +1,25 @@
+#sid {
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    margin-left: 5.89%;
+    width: 50.23%;
+    height: 75%;
+
+    margin-bottom: 8%;
+    margin-left: 25%;
+    margin-right: 5.89%;
+
+
+    background: #FFFFFF;
+    border: 1px solid #c7c7c7;
+    box-shadow: 3px 2px 3px rgba(165, 161, 161, 0.161);
+
+    display: grid;
+}
+
+h1 {
+    text-align: center;
+}
