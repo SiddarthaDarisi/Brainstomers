@@ -3,7 +3,7 @@
 import "./navbar.css"
 import React from 'react';
 import CheckSignin from './CheckSignin';
-import logo from './logo.png';
+import logo from '../image/logo.png';
 import { Link } from "react-router-dom";
 import { Auth } from 'aws-amplify';
 async function signOut() {
@@ -40,7 +40,7 @@ function Navbar2({ signout }) {
                             <Link to="/dashboard/schedule" className="btn btn-primary" style={{ textDecoration: 'none' }} id="curriculum-text">Schedule</Link>
                         </div>
                         <div id="login">
-                            <button className="btn btn-primary"  onClick={signOut} id="login-text">logout</button>
+                            <button className="btn btn-primary" onClick={signOut} id="login-text">logout</button>
                         </div>
                     </div>
 

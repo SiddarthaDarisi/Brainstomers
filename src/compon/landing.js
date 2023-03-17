@@ -1,13 +1,13 @@
 
 import React from 'react';
 import "./landing.css";
-import Backgroundimg from './background.png';
+import Backgroundimg from '../image/background.png';
 import Navbar from './Navbar';
 import { useNavigate } from "react-router-dom";
 import CheckSignin from './CheckSignin';
 import Footer from "./Footer"
-import profilepic from "./pro_pic.jpg"
-import kidpic from "./kid_image.jpg"
+import profilepic from "../image/pro_pic.jpg"
+import kidpic from "../image/kid_image.jpg"
 //asa
 function Landing() {
     let navigate = useNavigate();

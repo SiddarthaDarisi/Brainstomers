@@ -8,6 +8,7 @@ import Contact from './compon/Contact.js';
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import React from 'react';
+import { CssBaseline } from '@mui/material';
 
 
 
@@ -16,7 +17,7 @@ function App() {
   return (
 
     <div className="App">
-
+      <CssBaseline />
 
       <Routes>
         <Route path="/" element={<Landing />} />
