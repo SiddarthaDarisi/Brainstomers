@@ -1,5 +1,5 @@
 import * as React from 'react';
-import logo from './logo.png';
+import logo from '../image/logo.png';
 import "./PricingPage.css"
 import Navbar from './Navbar';
 function PricingPage() {

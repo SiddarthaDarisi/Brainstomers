@@ -1,5 +1,5 @@
 import * as React from 'react';
-import logo from './logo.png';
+import logo from '../image/logo.png';
 import Navbar from './Navbar';
 function PricingPage2() {
   //   (async () => {
@@ -18,10 +18,8 @@ function PricingPage2() {
       </div>
       <div style={{ padding: 50 }}>
 
-        <stripe-pricing-table
-          pricing-table-id="prctbl_1MkLIpAfIGR0KUvj8Xvtb8aW"
-          publishable-key="pk_test_51Mjc6FAfIGR0KUvjHVH3urBMpUvPUjU4NBCXKDWgwFGc2vgaE1XlBp6AQTmpKHH2sJ5AlDFRF0CQdMrpHxLA5ndw00YGYwymWL"
-        >
+        <stripe-pricing-table pricing-table-id="prctbl_1MmiRWSGVovBYar9CEKd2Uma"
+          publishable-key="pk_test_51Mmi6pSGVovBYar9iT7cbC0cpZuHbuuCtQHGrmUixIvg4hGcVkFx0WX12mfrYjKlifZ0TxLjWlMeFIxiRjC9tshO00Yn6vvVx4">
         </stripe-pricing-table>
       </div>
     </div>
