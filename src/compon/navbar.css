@@ -1,8 +1,14 @@
-.App-logo {
-    display: flex;
-    justify-content: center;
+#App-logo1 {
+
+    width: 30%;
+    margin-left: 4.3rem;
+
+}
+
+#App-logo2 {
+
     width: 60%;
-    margin-left: 3rem;
+    margin-left: 5rem;
 
 }
 

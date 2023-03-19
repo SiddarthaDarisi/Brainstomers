@@ -8,7 +8,9 @@ import CheckSignin from './CheckSignin';
 import Footer from "./Footer"
 import profilepic from "../image/pro_pic.jpg"
 import kidpic from "../image/kid_image.jpg"
+import { Typography } from '@mui/material';
 //asa
+
 function Landing() {
     let navigate = useNavigate();
     const routeChange = () => {
@@ -28,7 +30,7 @@ function Landing() {
                         <img src={Backgroundimg} alt="background" id='backgroundimg' />
                     </div>
 
-                    <p id="tagline" >Learn faster through <br />structured training</p>
+                    <Typography>Learn faster through <br />structured training</Typography>
                     <button id="getstarted" onClick={routeChange} onHove>Get started</button>
                 </div>
                 <div id="rest">

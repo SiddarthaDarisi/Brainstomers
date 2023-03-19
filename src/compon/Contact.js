@@ -3,6 +3,7 @@ import {
 } from '.././ui-components';
 import Navbar from './Navbar';
 import "./contact.css"
+import { Box } from '@mui/system';
 import React from 'react'; import { API } from 'aws-amplify'; import { createCandidate } from '../graphql/mutations';
 function Contact() {
     //     const [name, setName] = React.useState('');
@@ -76,13 +77,13 @@ function Contact() {
         //             </fieldset>
         //         </form>
         //     </div>
-        <div>
+        <Box>
             <Navbar />
             <h1> Need Help?</h1>
-            <div id="sid">
+            <Box id="sid" sx={{ overflow: 'auto' }}>
                 <CandidateCreateForm />
-            </div>
-        </div>
+            </Box>
+        </Box >
     );
 }
 export default Contact;
