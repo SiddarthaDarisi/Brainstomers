@@ -44,7 +44,7 @@ function curriculum() {
                                     width: 12.5
                                 }} />
                                     <Typography variant="body2" component="p" marginLeft={0.5}>
-                                        3 months
+                                        3 months, 24 classes
                                     </Typography>
                                 </Box>
                                 <Box
@@ -105,7 +105,7 @@ function curriculum() {
                                     width: 12.5
                                 }} />
                                     <Typography variant="body2" component="p" marginLeft={0.5}>
-                                        4 months
+                                        4 months, 32 classes
                                     </Typography>
 
                                 </Box>
@@ -162,7 +162,7 @@ function curriculum() {
                                         width: 12.5
                                     }} />
                                         <Typography variant="body2" component="p" marginLeft={0.5}>
-                                            8 months
+                                            8 months, 64 classes
                                         </Typography>
                                     </Box>
                                     <Box
