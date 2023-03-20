@@ -10,7 +10,7 @@ function Footer() {
         <Grid
             container
             spacing={0}
-            direction="column"
+            direction="row"
             alignItems="center"
             justifyContent="center"
             sx={{ bgcolor: "#28424C", color: "#DBCDB6", height: "5rem" }}
@@ -20,7 +20,16 @@ function Footer() {
                 <Typography>
                     ©All Rights Reserved
                 </Typography>
+
             </Grid>
+            <Grid item >
+                <Typography ml={10}>
+                    Phone: +91 9373098227<br />
+                    Email: chessbrainstormers@gmail.com
+                </Typography>
+
+            </Grid>
+
 
         </Grid>
     )

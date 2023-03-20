@@ -226,8 +226,9 @@ function Navbar() {
                             noWrap
                             component="img"
                             id="App-logo2"
+                            onClick={() => navigate('/')}
                             sx={{
-
+                                
                                 display: { xs: 'flex', md: 'none' },
 
 

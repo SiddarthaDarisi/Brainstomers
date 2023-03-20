@@ -17,9 +17,9 @@
       },
       "function": {
         "brainstomers0df6a6a2": {
-          "sesEmail": "siddarthadarisi@gmail.com",
           "deploymentBucketName": "amplify-amplify1c663a497dfc4-staging-210512-deployment",
-          "s3Key": "amplify-builds/brainstomers0df6a6a2-6a4155366c724d5a5338-build.zip"
+          "s3Key": "amplify-builds/brainstomers0df6a6a2-5138324a6e4649577450-build.zip",
+          "sesEmail": "harshithb59@gmail.com"
         }
       },
       "api": {

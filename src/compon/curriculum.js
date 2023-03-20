@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid'; // Grid version 1
 import Item from '@mui/material/Grid';
 import { Box } from '@mui/system';
 import { AccessTime } from "@mui/icons-material"
-
+import Footer from './Footer';
 function curriculum() {
 
     return (
@@ -20,7 +20,7 @@ function curriculum() {
             </div>
 
 
-            <Container sx={{ marginTop: 12 }}>
+            <Container  sx={{ marginTop: 12, marginBottom:4 }}>
 
                 <Grid container spacing={8} display="flex" direction={{ md: "row", xs: "column" }}>
 
@@ -180,7 +180,7 @@ function curriculum() {
                                         display: 'flex',
                                         alignItems: 'center'
                                     }}>
-                                        <Typography variant="body2" component="p" marginLeft={3}>
+                                        <Typography  variant="body2" component="p" marginLeft={3}>
                                             <ul>
 
                                                 <li>Introduction to different chess opening like Scotch,
@@ -207,7 +207,7 @@ function curriculum() {
                                                 <li>How to attack a castled king.</li>
                                                 <li>Chess tournament Practise Sessions</li>
                                             </ul>
-                                        </Typography>
+                                        </Typography >
                                     </Box>
                                 </Box>
 
@@ -222,6 +222,9 @@ function curriculum() {
 
                 </Grid>
             </Container>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     );
 
