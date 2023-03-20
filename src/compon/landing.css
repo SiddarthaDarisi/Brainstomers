@@ -8,12 +8,15 @@
         "down"
 }
 
-.topp {
-    grid-area: "top";
-    width: 100vw;
-    width: 98.9vw;
-    background-color: rgba(33, 59, 69, 1);
-    height: 100vh;
+#topp {
+    height: 42rem;
+    overflow: hidden;
+}
+
+@media (max-width: 1310px) {
+    #topp {
+        height: auto;
+    }
 }
 
 
@@ -35,8 +38,8 @@
 }
 
 #image1 {
-    height: 100vh;
-    
+    height: 93vh;
+
     overflow: hidden;
 }
 
@@ -47,8 +50,6 @@
 
 
 
-    height: auto;
-    width: auto\9;
     opacity: 0.1;
     pointer-events: none;
 

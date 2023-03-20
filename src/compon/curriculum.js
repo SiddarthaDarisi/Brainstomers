@@ -10,14 +10,20 @@ import { Box } from '@mui/system';
 import { AccessTime } from "@mui/icons-material"
 
 function curriculum() {
-    
+
     return (
 
         <div className='circulum'>
-            <Navbar />
-            <Container sx={{ marginTop: 5 }}>
 
-                <Grid container spacing={8} display={"flex"}  >
+            <div id='navbar'>
+                <Navbar />
+            </div>
+
+
+            <Container sx={{ marginTop: 12 }}>
+
+                <Grid container spacing={8} display="flex" direction={{ md: "row", xs: "column" }}>
+
 
                     <Grid item xs={4}  >
                         <Paper elevation={3} id='paper' sx={{

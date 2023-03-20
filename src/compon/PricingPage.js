@@ -6,7 +6,7 @@ function PricingPage() {
   // Paste the stripe-pricing-table snippet in your React component
   return (
     <div>
-      <div style={{ paddingBottom: 20 }}>
+      <div id="navbar" >
         <Navbar />
       </div>
       <div id="master-box1">

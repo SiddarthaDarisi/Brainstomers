@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import "./contact.css"
 import { Box } from '@mui/system';
 import React from 'react'; import { API } from 'aws-amplify'; import { createCandidate } from '../graphql/mutations';
+import { Container } from '@mui/material';
 function Contact() {
     //     const [name, setName] = React.useState('');
     //     const [email, setEmail] = React.useState('');
@@ -77,13 +78,18 @@ function Contact() {
         //             </fieldset>
         //         </form>
         //     </div>
-        <Box>
-            <Navbar />
-            <h1> Need Help?</h1>
-            <Box id="sid" sx={{ overflow: 'auto' }}>
-                <CandidateCreateForm />
-            </Box>
-        </Box >
+        <div>
+            <div id="navbar">
+                <Navbar />
+            </div>
+            <Container sx={{ marginTop: 12 }}>
+
+                <h1> Need Help?</h1>
+                <Box id={{ xs: "bro", md: "sid" }} sx={{ overflow: 'auto' }}>
+                    <CandidateCreateForm />
+                </Box>
+            </Container>
+        </div>
     );
 }
 export default Contact;
