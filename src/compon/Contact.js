@@ -3,7 +3,10 @@ import {
 } from '.././ui-components';
 import Navbar from './Navbar';
 import "./contact.css"
+import { Box, margin } from '@mui/system';
+import Footer from './Footer';
 import React from 'react'; import { API } from 'aws-amplify'; import { createCandidate } from '../graphql/mutations';
+import { Container, Typography } from '@mui/material';
 function Contact() {
     //     const [name, setName] = React.useState('');
     //     const [email, setEmail] = React.useState('');
@@ -77,11 +80,21 @@ function Contact() {
         //         </form>
         //     </div>
         <div>
-            <Navbar />
-            <h1> Need Help?</h1>
-            <div id="sid">
-                <CandidateCreateForm />
+            <div id="navbar">
+                <Navbar />
             </div>
+            <Container sx={{ marginTop: 12, marginBottom: 20 }}>
+
+                <h1> Need Help?</h1>
+                <Box id={{ xs: "bro", md: "sid" }} sx={{ overflow: 'auto' }}>
+                    <CandidateCreateForm />
+                </Box>
+                <Typography sx={{alignItems:"center"}}>
+                    <h4>Phone:+919373098227</h4>
+                    <h4>Email:chessbrainstormers@gmail.com</h4>
+                </Typography>
+            </Container>
+
         </div>
     );
 }
