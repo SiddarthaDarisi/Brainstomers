@@ -64,7 +64,7 @@ function ResponsiveImage() {
         <Typography variant="h2" color={"#DBCDB6"}
         >Learn faster through<br /> Structured training</Typography>
         <Box sx={{ mt: 2 }}>
-          <Button variant="contained" onClick={routeChange} sx={{ bgcolor: "#4B94B0", color: "#28424C", fontSize: "1.2rem", fontWeight: "bold", borderRadius: "0.5rem", width: "10rem", height: "3rem" }}>Free Trail</Button>
+          <Button variant="contained" onClick={routeChange} sx={{ bgcolor: "#4B94B0", color: "#28424C", fontSize: "1.2rem", fontWeight: "bold", borderRadius: "0.5rem", width: "10rem", height: "3rem" }}>Free Trial</Button>
         </Box>
       </Box>
 
