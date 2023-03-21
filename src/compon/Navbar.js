@@ -132,7 +132,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { createTheme, ThemeProvider } from '@mui/system';
 import { useNavigate } from "react-router-dom";
 import { navigate } from 'react-router';
-const pages = ['Pricing', 'Curriculum', 'Contact'];
+const pages = ['Pricing', 'Curriculum','Schedule', 'Contact'];
 
 function Navbar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -214,6 +214,7 @@ function Navbar() {
                             {pages.map((page) => (
                                 <MenuItem key={page} onClick={page === 'Pricing' ? () => { navigate('/PricingPage') } :
                                     page === 'Curriculum' ? () => { navigate('/Curriculum') } :
+                                    page === 'Schedule' ? () => { navigate('/Schedule') } :
                                         page === 'Contact' ? () => { navigate('/Contact') } : null}>
                                     <Typography textAlign="center">{page}</Typography>
                                 </MenuItem>
@@ -244,6 +245,7 @@ function Navbar() {
                                 onClick={
                                     page === 'Pricing' ? () => { navigate('/PricingPage') } :
                                         page === 'Curriculum' ? () => { navigate('/Curriculum') } :
+                                        page === 'Schedule' ? () => { navigate('/Schedule') } :
                                             page === 'Contact' ? () => { navigate('/Contact') } : null
                                 }
                                 sx={{ my: 2, color: '#DBCDB6', display: 'block', fontFamily: "raleway" }}
