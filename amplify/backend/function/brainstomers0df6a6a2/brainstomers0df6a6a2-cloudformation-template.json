@@ -180,7 +180,7 @@
                 "ses:SendEmail"
               ],
               "Effect": "Allow",
-              "Resource": "arn:aws:ses:us-east-1:506583605432:identity/harshithb59@gmail.com"
+              "Resource": "arn:aws:ses:us-east-1:506583605432:identity/ivanamariafurtado@gmail.com"
             }
           ]
         }
