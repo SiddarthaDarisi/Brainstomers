@@ -9,6 +9,7 @@ import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import React from 'react';
 import { CssBaseline } from '@mui/material';
+import Schedule from './compon/schedule.js';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         {/* <Route path="/Dashboard/PricingPage" element={<Pricing />} /> */}
         <Route path="/Curriculum" element={<Curriculum />} />
         {/* <Route path="/Dashboard" element={<Dashboard />} /> */}
+        <Route path="/Schedule" element={<Schedule />} />
         <Route path="/PricingPage" element={<Pricing2 />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
